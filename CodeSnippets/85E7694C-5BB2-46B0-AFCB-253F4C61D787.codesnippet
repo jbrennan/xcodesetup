@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gswitch</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>		switch (recognizer.state) {
+			case UIGestureRecognizerStateBegan:
+				&lt;#Gesture began#&gt;
+				
+				// don't break
+				
+			case UIGestureRecognizerStateChanged:
+				&lt;#Gesture changed#&gt;
+				break;
+			case UIGestureRecognizerStateCancelled:
+			case UIGestureRecognizerStateEnded:
+				&lt;#Gesture ended#&gt;
+				
+			default:
+				break;
+		}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>85E7694C-5BB2-46B0-AFCB-253F4C61D787</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIGestureRecognizer switch</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
